@@ -22,18 +22,32 @@
         android:hint="Age"
         android:layout_marginTop="20dp"
         />
-    <EditText
+    <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/phone_et"
-        android:hint="Phone"
+        android:id="@+id/spinner"
         android:layout_marginTop="20dp"
         />
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/phone_et"-->
+<!--        android:hint="Phone"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        />-->
     <Button
         android:id="@+id/save_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Save"/>
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Delete"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
